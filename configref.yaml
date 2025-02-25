@@ -1,0 +1,12 @@
+#This file contains all the options when adding a source to a github integration on Sysdig Secure
+#plus some other values required to do the api calls.
+config:
+  secure_url: "" # https://docs.sysdig.com/en/docs/administration/saas-regions-and-ip-ranges/
+  secure_api_token: "" # You can get your API token from secure UI
+  github_token: "" #Pat token from github
+  accountType: ""  # "org" or "user" type
+  accountName: "" # your org or username
+  integrationId: "" #Integration ID from URL on sysdig integration page
+  prScanBranchPattern: "" #The Branch to be scanned on each PR
+  folders: #Folders from the repos you want to add.
+    - "/"
