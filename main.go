@@ -12,7 +12,6 @@ import (
 )
 
 // Config struct to match the config.yaml file
-// Config struct to match the config.yaml file
 type Config struct {
 	Config struct {
 		SecureURL           string   `yaml:"secure_url"`
